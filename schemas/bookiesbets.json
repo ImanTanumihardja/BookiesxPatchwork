@@ -1,0 +1,59 @@
+{
+  "scopeName": "test",
+  "name": "BookiesBets",
+  "symbol": "AP",
+  "schemaURI": "https://mything/my-metadata.json",
+  "imageURI": "https://mything/my/{tokenID}.png",
+  "fields": [
+    {
+      "id": 1,
+      "key": "marketId",
+      "type": "char32",
+      "arrayLength": 1,
+      "description": "Market Id",
+      "visibility": "public",
+      "slot": 0,
+      "offset": 0
+    },
+    {
+      "id": 2,
+      "key": "pick",
+      "type": "int256",
+      "arrayLength": 1,
+      "description": "Pick",
+      "visibility": "public",
+      "slot": 1,
+      "offset": 0
+    },
+    {
+      "id": 3,
+      "key": "odd",
+      "type": "uint256",
+      "arrayLength": 1,
+      "description": "Odd",
+      "visibility": "public",
+      "slot": 2,
+      "offset": 0
+    },
+    {
+      "id": 4,
+      "key": "stake",
+      "type": "uint256",
+      "arrayLength": 1,
+      "description": "Stake",
+      "visibility": "public",
+      "slot": 3,
+      "offset": 0
+    },
+    {
+      "id": 4,
+      "key": "timestamp",
+      "type": "uint256",
+      "arrayLength": 1,
+      "description": "Timestamp",
+      "visibility": "public",
+      "slot": 4,
+      "offset": 0
+    }
+  ]
+}
